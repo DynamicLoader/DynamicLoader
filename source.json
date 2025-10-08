@@ -1,13 +1,12 @@
 {
-    "name":"Example Listing",
+    "name": "DynamicLoader's Listing",
     "id": "org.dyldr.vpm-listing",
     "url": "https://vpm.dyldr.top/index.json",
-    "author":{
-        "email":"developer@vrchat.com",
+    "author": {
         "name":"VRChat",
         "url":"https://hello.vrchat.com"
     },
-    "description": "Example listing of VRChat packages",
+    "description": "Listing of VRChat packages",
     "bannerUrl":"banner.png",
     "githubRepos":[
         "vrchat-community/clientsim"
