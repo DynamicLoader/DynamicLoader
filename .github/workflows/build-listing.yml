@@ -3,8 +3,8 @@ name: Build Repo Listing
 on: 
   workflow_dispatch:
   push:
-    branches: vpm
-    # paths: source.json
+    branches: main
+    paths: source.json
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -51,14 +51,26 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
  
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ${{env.listPublishDirectory}}
+
+      - name: Deploy To Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        id: deployment-cloudflare
+        if: vars.CLOUDFLARE_PAGES_PROJECT_NAME != ''
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ${{env.listPublishDirectory}} --project-name=${{vars.CLOUDFLARE_PAGES_PROJECT_NAME}}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Pages
+        if: vars.CLOUDFLARE_PAGES_PROJECT_NAME == ''
+        uses: actions/configure-pages@v5
           
       - name: Deploy to GitHub Pages
-        id: deployment
+        if: vars.CLOUDFLARE_PAGES_PROJECT_NAME == ''
+        id: deployment-github
         uses: actions/deploy-pages@v4
