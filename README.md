@@ -1,3 +1,8 @@
-# VPM Package Listing 
+<!-- ### Study for the future! -->
 
-This is my VPM Listing source. Access from [here](https://vpm.dyldr.top/).
+
+![Views](https://count.getloli.com/get/@dynamicloader) 
+
+![My GitHub stats](https://github-readme-stats.vercel.app/api?username=dynamicloader&count_private=true&show_icons=true) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dynamicloader&layout=compact)
+
+Feel free to contact me with [Discussion](https://github.com/DynamicLoader/DynamicLoader/discussions)! 
