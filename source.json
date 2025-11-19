@@ -1,7 +1,7 @@
 {
     "name": "DynamicLoader's Listing",
-    "id": "org.dyldr.vpm-listing",
-    "url": "https://vpm.dyldr.top/index.json",
+    "id": "net.octz.vpm",
+    "url": "https://vpm.octz.net/",
     "author": {
         "name":"VRChat",
         "url":"https://hello.vrchat.com"
