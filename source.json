@@ -3,21 +3,13 @@
     "id": "net.octz.vpm",
     "url": "https://vpm.octz.net/",
     "author": {
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+        "name":"Dynamicloader",
+        "url":"https://octz.net/",
+        "email":"me@dyldr.top"
     },
-    "description": "Listing of VRChat packages",
+    "description": "Listing of my VRChat packages",
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "vrchat-community/clientsim"
+        "dynamicloader/simplegit"
     ],
-    "packages":[
-        {
-            "name":"com.vrchat.udonsharp",
-            "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
-            ]
-        }
-    ]
 }
