@@ -1,10 +1,8 @@
-<!-- ### Study for the future! -->
-
 <img align="right" src="https://github-stat-deploy.vercel.app/api/top-langs/?username=dynamicloader&layout=donut-vertical"/>
+<!--![Views](https://count.getloli.com/@dynamicloader?scale=1.2) -->
 
-![Views](https://count.getloli.com/@dynamicloader?scale=1.2) 
-<br>![My GitHub stats](https://github-stat-deploy.vercel.app/api?username=dynamicloader&count_private=true&show_icons=true&card_width=450)
-<br>![WakaTime Stat](https://github-stat-deploy.vercel.app/api/wakatime?username=dynamicloader&card_width=450)
+![My GitHub stats](https://github-stat-deploy.vercel.app/api?username=dynamicloader&count_private=true&show_icons=true&card_width=500)
+<br>![WakaTime Stat](https://github-stat-deploy.vercel.app/api/wakatime?username=dynamicloader&card_width=500)
 
 All contributions from 2026 onwards are verified via SSH.
 
