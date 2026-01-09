@@ -1,7 +1,7 @@
 <!-- ### Study for the future! -->
 
 
-![Views](https://count.getloli.com/get/@dynamicloader) 
+![Views](https://count.getloli.com/@dynamicloader?scale=1.2) 
 
 ![My GitHub stats](https://github-stat-deploy.vercel.app/api?username=dynamicloader&count_private=true&show_icons=true&card_width=450)
 <br>![Top Langs](https://github-stat-deploy.vercel.app/api/top-langs/?username=dynamicloader&layout=compact&card_width=450)
