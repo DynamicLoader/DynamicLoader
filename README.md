@@ -1,6 +1,6 @@
-## Hello, there!
+## Hi, there!
 
-I'm DynamicLoader. Feel free to contact me with [Discussion](https://github.com/DynamicLoader/DynamicLoader/discussions)! 
+I'm DynamicLoader. Feel free to [discuss with me](https://github.com/DynamicLoader/DynamicLoader/discussions)! 
 
 All contributions from 2026 onwards are verified via SSH.
 
