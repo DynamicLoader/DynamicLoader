@@ -5,12 +5,13 @@
     "author": {
         "name":"Dynamicloader",
         "url":"https://octz.net/",
-        "email":"me@dyldr.top"
+        "email":"hi@octz.net"
     },
     "description": "Listing of my VRChat packages",
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "dynamicloader/simplegit"
+        "dynamicloader/simplegit",
+        "DynamicLoader/UnityWakatime"
     ],
     "packages":[]
 }
