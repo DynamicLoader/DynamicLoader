@@ -1,4 +1,4 @@
-<img align="right" src="https://github-stat-deploy.vercel.app/api?username=dynamicloader&count_private=true&show_icons=true&hide_rank=true&card_width=300&hide_title=true"/>
+<!--img align="right" src="https://github-stat-deploy.vercel.app/api?username=dynamicloader&count_private=true&show_icons=true&hide_rank=true&card_width=300&hide_title=true"/-->
 
 ## Hi, there! [![wakatime](https://wakatime.com/badge/user/5a41e3cc-72f9-44c3-ba8c-7dd5df2af127.svg)](https://wakatime.com/@5a41e3cc-72f9-44c3-ba8c-7dd5df2af127)
 
